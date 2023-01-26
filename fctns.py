@@ -208,7 +208,7 @@ def diff_cyl_rot(field) :
     return a1, a2
 
 def main():
-    return
+    pass
 
 if __name__ == '__main__':
     main()
