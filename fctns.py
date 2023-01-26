@@ -129,7 +129,7 @@ def energies_rot(pos_n,charge):
               (eEx * Tera + eEy * Tera + np.sqrt(eEx ** 2 * Tera ** 2 - 2 * eEx * eEy * Tera ** 2 +
                                                  eEy ** 2 * Tera ** 2 + 4 * a * eEx * g * Tera * e_f[0] -
                                                  4 * a * eEy * g * Tera * e_f[0] + 4 * a ** 2 * g ** 2 * e_f[0] ** 2 +
-                                                 4 * a ** 2 * g ** 2 * e_f[1] ** 2) + 2 * b * g * e_f[2] + 2 * d * g * e_f[2]) / 2 ]) / Tera  # energies in THz, expressions taken from Mathematica
+                                                 4 * a ** 2 * g ** 2 * e_f[1] ** 2) + 2 * b * g * e_f[2] + 2 * d * g * e_f[2]) / 2 ]) / Tera  
     return  e_arr
 
 def diff_rot(pos_n, charge) :
@@ -198,7 +198,7 @@ def energies_cyl_rot(field):
               (eEx * Tera + eEy * Tera + np.sqrt(eEx ** 2 * Tera ** 2 - 2 * eEx * eEy * Tera ** 2 +
                                                  eEy ** 2 * Tera ** 2 + 4 * a * eEx * g * Tera * e_f[0] -
                                                  4 * a * eEy * g * Tera * e_f[0] + 4 * a ** 2 * g ** 2 * e_f[0] ** 2 +
-                                                 4 * a ** 2 * g ** 2 * e_f[1] ** 2) + 2 * b * g * e_f[2] + 2 * d * g * e_f[2]) / 2 ]) / Tera  # energies in THz, expressions taken from Mathematica
+                                                 4 * a ** 2 * g ** 2 * e_f[1] ** 2) + 2 * b * g * e_f[2] + 2 * d * g * e_f[2]) / 2 ]) / Tera  
     return  e_arr
 
 def diff_cyl_rot(field) :
