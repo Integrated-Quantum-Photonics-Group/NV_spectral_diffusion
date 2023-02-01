@@ -1,4 +1,4 @@
-# pleasant
+# Scripts for simulating spectral diffusion of the nitrogen vacancy in diamond
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
